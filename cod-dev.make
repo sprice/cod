@@ -5,10 +5,7 @@
 api = 2
 core = 7.x
 
-projects[drupal] = 7.2
-projects[drupal][download][type] = "git"
-projects[drupal][download][url] = "http://git.drupal.org/project/drupal.git"
-projects[drupal][download][revision] = "7.x"
+projects[drupal] = 7.10
 
 projects[cod][type] = profile
 projects[cod][download][type] = "git"
