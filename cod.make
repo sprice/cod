@@ -148,9 +148,6 @@ projects[commerce][download][revision] = "7.x-1.x"
 
 ;Views
 projects[views][install_path] = sites/all/modules/contrib
-projects[views][download][type] = "git"
-projects[views][download][url] = "http://git.drupal.org/project/views.git"
-projects[views][download][revision] = "7.x-3.x"
 
 ;Views Bulk Operations (VBO)
 projects[views_bulk_operations][install_path] = sites/all/modules/contrib
