@@ -3,11 +3,11 @@
 ; the dev version of COD and its dependencies, including patches, before
 ; a new full release of the distribution is rolled.
 api = 2
-core = 7.x
+core = 7.15
 
-projects[drupal] = 7.10
+projects[drupal] = 7.15
 
-projects[cod][type] = profile
+projects[cod][type] = "module"
 projects[cod][download][type] = "git"
 projects[cod][download][url] = "http://git.drupal.org/project/cod.git"
-projects[cod][download][revision] = "7.x-1.x"
+projects[cod][download][branch] = "7.x-1.x"
