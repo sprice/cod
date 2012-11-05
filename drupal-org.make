@@ -3,7 +3,7 @@ core = 7.16
 api = 2
 
 ; Modules
-projects[views_bulk_operations][version] = "3.0-rc1"
+projects[views_bulk_operations][version] = "3.0"
 projects[views_bulk_operations][subdir] = contrib
 
 projects[addressfield][version] = "1.0-beta3"
@@ -21,10 +21,10 @@ projects[advanced_help][subdir] = contrib
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = contrib
 
-projects[ctools][version] = "1.1"
+projects[ctools][version] = "1.2"
 projects[ctools][subdir] = contrib
 
-projects[commerce][version] = "1.3"
+projects[commerce][version] = "1.4"
 projects[commerce][subdir] = contrib
 
 projects[commerce_stock][version] = "1.1"
@@ -48,10 +48,10 @@ projects[diff][subdir] = contrib
 projects[entity][version] = "1.0-rc3"
 projects[entity][subdir] = contrib
 
-projects[entityreference][version] = "1.0-rc3"
+projects[entityreference][version] = "1.0-rc5"
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_prepopulate][version] = "1.0"
+projects[entityreference_prepopulate][version] = "1.1"
 projects[entityreference_prepopulate][subdir] = contrib
 
 projects[features][version] = "1.0"
@@ -69,13 +69,13 @@ projects[field_select_ct][subdir] = contrib
 projects[field_collection][version] = "1.0-beta4"
 projects[field_collection][subdir] = contrib
 
-projects[flag][version] = "2.0-beta8"
+projects[flag][version] = "2.0"
 projects[flag][subdir] = contrib
 
 projects[link][version] = "1.0"
 projects[link][subdir] = contrib
 
-projects[panels][version] = "3.2"
+projects[panels][version] = "3.3"
 projects[panels][subdir] = contrib
 
 projects[pathauto][version] = "1.2"
@@ -90,10 +90,10 @@ projects[rules][subdir] = contrib
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = contrib
 
-projects[token][version] = "1.2"
+projects[token][version] = "1.4"
 projects[token][subdir] = contrib
 
-projects[views][version] = "3.3"
+projects[views][version] = "3.5"
 projects[views][subdir] = contrib
 
 projects[views_send][version] = "1.0-alpha1"
@@ -106,7 +106,7 @@ projects[webform][version] = "3.18"
 projects[webform][subdir] = contrib
 
 ; Themes
-projects[adaptivetheme][version] = "2.2"
+projects[adaptivetheme][version] = "2.3"
 
 ; Git sourced Modules
 projects[cod_support][type] = "module"
