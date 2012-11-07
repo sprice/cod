@@ -1,0 +1,24 @@
+language: php
+
+php:
+  - 5.4
+
+mysql:
+  database: cod
+  username: root
+  encoding: utf8
+
+env:
+  global:
+    - PROJECT_NAME=cod
+    - SELENIUM_VERSION=2.26.0
+    - WORKSPACE=$HOME/builds/sprice
+  matrix:
+    - DRUSH_VERSION=5.4.0
+    - DRUSH_VERSION=5.7.0
+
+before_install: bash tmp/scripts/travis_before_install.sh
+
+before_script:  bash tmp/scripts/travis_install.sh
+
+script:         bash tmp/scripts/travis_test.sh
