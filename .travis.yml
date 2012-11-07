@@ -17,8 +17,8 @@ env:
     - DRUSH_VERSION=5.4.0
     - DRUSH_VERSION=5.7.0
 
-before_install: bash tmp/scripts/travis_before_install.sh
+before_install: bash scripts/travis_before_install.sh
 
-before_script:  bash tmp/scripts/travis_install.sh
+before_script:  bash scripts/travis_install.sh
 
-script:         bash tmp/scripts/travis_test.sh
+script:         bash scripts/travis_test.sh
