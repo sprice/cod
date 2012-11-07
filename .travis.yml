@@ -13,8 +13,6 @@ env:
     - PROJECT_NAME=cod
     - SELENIUM_VERSION=2.26.0
     - WORKSPACE=$HOME/builds/sprice
-  matrix:
-    - DRUSH_VERSION=5.4.0
     - DRUSH_VERSION=5.7.0
 
 before_install: bash scripts/travis_before_install.sh
