@@ -7,10 +7,6 @@ core = 7.x
 projects[addressfield][type] = "module"
 projects[addressfield][subdir] = contrib
 
-projects[admin_icons][version] = "1.x-dev"
-projects[admin_icons][type] = "module"
-projects[admin_icons][subdir] = "contrib"
-
 projects[jquery_update][version] = "2.x-dev"
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
@@ -30,6 +26,7 @@ projects[auto_nodetitle][subdir] = contrib
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.2"
 projects[ctools][patch][] = http://drupal.org/files/ctools-dependent-js-broken-with-jquery-1.7-1494860-30.patch
 
 projects[commerce][version] = "1.4"
@@ -150,7 +147,12 @@ projects[cod_support][subdir] = contrib
 projects[cod_support][download][type] = "git"
 projects[cod_support][download][url] = "http://git.drupal.org/project/cod_support.git"
 projects[cod_support][download][branch] = "7.x-1.x"
-;projects[cod_support][patch][1698942] = http://drupal.org/files/session-eval-need-default-rating-1698942-38.patch
+
+projects[admin_icons][type] = "module"
+projects[admin_icons][subdir] = contrib
+projects[admin_icons][download][type] = "git"
+projects[admin_icons][download][url] = "http://git.drupal.org/project/admin_icons.git"
+projects[admin_icons][download][branch] = "7.x-1.x"
 
 projects[registration][type] = "module"
 projects[registration][subdir] = contrib
