@@ -5,11 +5,14 @@ core = 7.x
 
 dependencies[] = addressfield
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = advanced_help
 dependencies[] = aloha
 dependencies[] = auto_nodetitle
 dependencies[] = block
 dependencies[] = comment
+dependencies[] = commons_profile_base
+dependencies[] = commons_wysiwyg
 dependencies[] = content_access
 dependencies[] = context
 dependencies[] = contextual

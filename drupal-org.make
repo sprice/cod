@@ -57,7 +57,7 @@ projects[devel][version] = "1.x-dev"
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 
-projects[diff][version] = "2.0"
+projects[diff][version] = "3.2"
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
 
@@ -138,8 +138,12 @@ projects[commons_wysiwyg][type] = "module"
 projects[commons_wysiwyg][version] = "3.x-dev"
 projects[commons_wysiwyg][subdir] = "contrib"
 
+projects[commons_profile_base][type] = "module"
+projects[commons_profile_base][version] = "3.x-dev"
+projects[commons_profile_base][subdir] = "contrib"
+
 ; Themes
-projects[adaptivetheme][version] = "2.3"
+projects[adaptivetheme][version] = "3.1"
 
 ; Git sourced Modules
 projects[cod_support][type] = "module"
